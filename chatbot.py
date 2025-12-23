@@ -8,6 +8,9 @@ def chatbot():
         if user_input in ["hi", "hello", "hey"]:
             print("Chatbot: Hello! How can I help you?")
 
+        elif "how are you" in user_input:
+            print("Chatbot: I'm doing great! Thanks for asking.")
+
         elif "your name" in user_input:
             print("Chatbot: I am a rule-based chatbot created as an internship project.")
 
@@ -19,18 +22,11 @@ def chatbot():
 
         elif user_input in ["bye", "exit", "quit"]:
             print("Chatbot: Goodbye! Have a nice day 😊")
-            
-        elif "how are you" in user_input:
-            print("Chatbot: I'm doing great! Thanks for asking.")
+            break 
 
         else:
             print("Chatbot: Sorry, I didn't understand that. Try something else.")
 
+
 if __name__ == "__main__":
     chatbot()
-    
-## Sample Output
-
-## Author
-Karthi Karthik
-
