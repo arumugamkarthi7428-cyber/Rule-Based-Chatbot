@@ -19,7 +19,9 @@ def chatbot():
 
         elif user_input in ["bye", "exit", "quit"]:
             print("Chatbot: Goodbye! Have a nice day 😊")
-            break
+            
+        elif "how are you" in user_input:
+    print("Chatbot: I'm doing great! Thanks for asking.")
 
         else:
             print("Chatbot: Sorry, I didn't understand that. Try something else.")
